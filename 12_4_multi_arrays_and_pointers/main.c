@@ -8,7 +8,7 @@ int main() {
 
   int rowToIterate = 1;
   int *p = md[rowToIterate]; // pointer to first row, same as md[1][0]
-  // *p = md[0/1] is different from md as you will see on 2nd example.
+  // *p = &md[0/1] is different from md as you will see on 2nd example.
 
   printf("iterating over row \n");
   // iterate through specific row
